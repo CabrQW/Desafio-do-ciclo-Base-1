@@ -1,0 +1,103 @@
+*{
+    font-family: 'inter';
+    margin: 0%;
+}
+#menusuperior{
+    background-color: #303030;
+    padding-top: 50px;
+
+}
+
+#titulo-superior{
+    color: #ffffff;
+    margin-left: 62px;
+    margin-top: 200px;
+    font-size: 43px;
+
+}
+
+#texto-superior{
+    color: #ffffff;
+    margin-left: 62px;
+    margin-top: 20px;
+    padding-bottom: 100px;
+}
+
+#menu-informacional{
+    background-color: #F9F9F9; 
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    margin: 0%;
+    padding-bottom: 50px;
+
+}
+
+.menuinformacional{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+#empreendimentos{
+    font-size: 15px;
+}
+
+.numero{
+    font-size: 35px;
+}
+
+#declaracao{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#texto{
+    margin: 200px 60px ;
+}
+
+#titulo{
+    font-size: 40px;
+}
+
+#imagem{
+    padding-bottom: 60px;
+}
+
+#cadastro{
+    background-color: #303030;
+    text-align: center;
+}
+
+#titulo-cadastro{
+    color: #ffffff;
+    padding: 25px;
+}
+
+input{
+    width: 300px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 10px;
+    border: 0px;
+    padding-left: 10px;
+}
+
+button{
+    width: 200px;
+    height: 55px;
+    background-color: #C07212;
+    border-radius: 5px;
+    border: 0px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    color: #ffffff;
+    transform: translateY(-7PX); 
+    box-shadow: 0px 15px 20px #884c04;
+    transition-duration: 0.5s;
+}
